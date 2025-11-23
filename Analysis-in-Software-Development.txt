@@ -209,3 +209,75 @@ Involve the product owner, team members, and stakeholders.
 Keep backlog items small, clear, and testable.
 
 Maintain a balance between planned and emergent work.
+______________________________________________________________________________________
+
+User Stories in Software Development
+1. Definition and Format
+
+A user story is a short, simple description of a software feature from the perspective of an end user or customer. It focuses on the who, what, and why of a requirement rather than technical details.
+
+Standard Format:
+
+As a [type of user], I want [goal or feature] so that [benefit].
+
+
+Example:
+“As a registered user, I want to reset my password so that I can regain access if I forget it.”
+
+Purpose:
+
+Captures user requirements in a clear, concise way.
+
+Helps the development team understand the value of a feature.
+
+Facilitates communication between stakeholders, product owners, and developers.
+
+2. How to Write Effective User Stories
+
+Effective user stories are clear, actionable, and testable. Some guidelines include:
+
+Follow the INVEST Principle:
+
+Independent: Can be developed independently of other stories.
+
+Negotiable: Open for discussion, not a rigid contract.
+
+Valuable: Delivers tangible value to the user or business.
+
+Estimable: Can be estimated in effort.
+
+Small: Small enough to complete in a single sprint.
+
+Testable: Acceptance criteria can verify it is done.
+
+Keep It User-Centric: Focus on the end-user experience, not internal implementation.
+
+Avoid Technical Jargon: Use plain language that stakeholders can easily understand.
+
+Split Large Stories: Break epics into smaller stories for easier development and testing.
+
+Include Context and Motivation: Always explain why the feature matters.
+
+3. Acceptance Criteria and Their Importance
+
+Acceptance criteria define the conditions that must be met for a user story to be considered complete. They provide clear expectations for developers and testers.
+
+Importance:
+
+Ensures everyone agrees on what “done” means.
+
+Provides a basis for testing and validation.
+
+Reduces ambiguity and misinterpretation of requirements.
+
+Helps maintain quality and consistency.
+
+Example:
+For the password reset story:
+
+User receives a password reset email within 5 minutes.
+
+Reset link expires after 24 hours.
+
+Password must meet security requirements (8+ characters, one number, one special character).
+___________________________________________________________________________________________
