@@ -281,3 +281,87 @@ Reset link expires after 24 hours.
 
 Password must meet security requirements (8+ characters, one number, one special character).
 ___________________________________________________________________________________________
+
+Weighting and Estimation in Agile
+1. Story Point Estimation Techniques
+
+Story points are a unit of measure used to estimate the effort required to implement a user story. Unlike time-based estimates, story points consider complexity, risk, and effort.
+
+Purpose:
+
+Helps teams plan sprints effectively.
+
+Facilitates prioritization of backlog items based on effort and value.
+
+Encourages relative comparison of tasks rather than exact hours.
+
+Common Story Point Scales:
+
+Fibonacci sequence: 1, 2, 3, 5, 8, 13, 21… (larger gaps for greater uncertainty)
+
+Powers of 2: 1, 2, 4, 8, 16…
+
+Linear scale: 1–10 (simpler but less precise for complexity comparison)
+
+2. Methods for Estimating User Stories
+
+Planning Poker
+
+Each team member privately selects a story point card representing their estimate.
+
+All reveal cards simultaneously to avoid influence.
+
+Differences are discussed, and the team re-estimates until consensus is reached.
+
+Encourages team collaboration and considers multiple perspectives.
+
+T-Shirt Sizing
+
+Stories are sized as XS, S, M, L, XL based on relative effort or complexity.
+
+Helps quickly categorize stories, especially during initial backlog refinement.
+
+Can later be mapped to numerical story points for sprint planning.
+
+Dot Voting / Affinity Estimation
+
+Team members group stories by complexity using visual boards or sticky notes.
+
+Quick method for estimating large backlogs efficiently.
+
+Bucket System
+
+Stories are sorted into predefined “buckets” of story points (e.g., 1, 2, 3, 5, 8, 13).
+
+Useful for large teams or distributed teams for faster estimation.
+
+3. Weighting User Stories
+
+User stories can be weighted using three main factors:
+
+Complexity
+
+How difficult is the implementation technically?
+
+Considers unknowns, dependencies, and integration challenges.
+
+Priority
+
+How critical is this story to the business or user?
+
+High-priority stories may be scheduled earlier, even if complex.
+
+Business Value
+
+What is the potential return on investment or user impact?
+
+High-value stories may get more attention despite moderate complexity.
+
+Combining Factors:
+Many teams use a simple formula or scoring system:
+
+Weighted Score = (Business Value × Priority) / Complexity
+
+
+This helps rank stories objectively for sprint planning and backlog prioritization.
+_______________________________________________________________________________________
