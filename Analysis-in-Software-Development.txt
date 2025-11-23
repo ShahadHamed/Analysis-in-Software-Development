@@ -365,3 +365,88 @@ Weighted Score = (Business Value × Priority) / Complexity
 
 This helps rank stories objectively for sprint planning and backlog prioritization.
 _______________________________________________________________________________________
+
+Complete Banking System Example
+1. User Stories for a Banking System
+
+Create Account
+As a customer, I want to create a new bank account so that I can start banking.
+Acceptance Criteria: Account is created with valid details, the customer receives a confirmation email, and a unique account number is generated.
+
+View Balance
+As a customer, I want to view my account balance so that I can monitor my funds.
+Acceptance Criteria: Balance is displayed accurately and updates in real-time after transactions.
+
+Money Transfer
+As a customer, I want to transfer money to another account so that I can pay bills or send funds.
+Acceptance Criteria: Transfer succeeds only if sufficient balance exists, recipient account is validated, and transaction history is updated.
+
+Transaction History
+As a customer, I want to view my transaction history so that I can track my spending.
+Acceptance Criteria: Transactions are displayed in reverse chronological order with date, amount, and description.
+
+Request Loan
+As a customer, I want to request a loan so that I can finance purchases.
+Acceptance Criteria: Loan application form submits successfully, eligibility is checked, and confirmation is provided.
+
+Approve/Reject Loan
+As a bank employee, I want to approve or reject loan applications so that I can manage risk.
+Acceptance Criteria: Loans can be approved or rejected, status is updated, and the customer is notified automatically.
+
+Recurring Payments
+As a customer, I want to set up recurring payments so that my bills are paid automatically.
+Acceptance Criteria: Payments are scheduled correctly, notifications are sent before each payment, and failures are handled.
+
+Download Statements
+As a customer, I want to download my account statements so that I can keep financial records.
+Acceptance Criteria: Statement is generated for the selected period, downloadable as PDF, and contains accurate transaction data.
+
+Reset Password
+As a customer, I want to reset my password so that I can regain access if I forget it.
+Acceptance Criteria: Reset link is sent via email, expires after 24 hours, and new password meets security requirements.
+
+Large Transaction Notifications
+As a customer, I want to receive notifications for large transactions so that I am aware of account activity.
+Acceptance Criteria: Alerts are sent for transactions over a user-defined threshold via email or SMS promptly.
+
+Link Multiple Accounts
+As a customer, I want to link multiple accounts to a single login so that I can manage them conveniently.
+Acceptance Criteria: All linked accounts are visible, login access is verified, and transaction data is consolidated.
+
+Update Personal Information
+As a customer, I want to update my personal information so that my account details remain current.
+Acceptance Criteria: Changes are saved securely, confirmation is sent, and invalid entries are prevented.
+
+Compliance Reports
+As a bank administrator, I want to generate compliance reports so that the bank meets regulatory requirements.
+Acceptance Criteria: Reports are generated for the requested period, data is accurate, and export to PDF/Excel is possible.
+
+Apply for Credit Card
+As a customer, I want to apply for a credit card so that I can access credit facilities.
+Acceptance Criteria: Application is submitted, eligibility is checked, confirmation is sent, and application status is trackable.
+
+Set Spending Limits
+As a customer, I want to set account spending limits so that I can control my expenses.
+Acceptance Criteria: Limits are set correctly, transactions exceeding limits are blocked, and notifications are sent.
+
+2. Backlog Prioritization and Weighting
+
+Each story is assigned complexity, business value, and priority, which can be used to calculate a weighted score. For example:
+
+View Balance: Low complexity, high business value, high priority → Weighted score is high.
+
+Money Transfer: Medium complexity, high business value, high priority → Weighted score is moderate.
+
+Recurring Payments: Higher complexity, medium business value, medium priority → Weighted score is lower.
+
+Weighted scores help the team decide which stories to implement first during sprint planning.
+
+3. Backlog Refinement and Maintenance
+
+The product backlog is reviewed regularly to incorporate feedback, add new features, and adjust priorities.
+
+Large stories or “epics” can be broken down into smaller, actionable stories for development.
+
+Acceptance criteria are updated as needed to reflect changing business requirements or regulatory needs.
+
+Examples of refinement include splitting the loan management epic into requesting a loan, approving/rejecting loans, and tracking loan status separately.
